@@ -11,8 +11,8 @@ class Album {
       id: map['id'],
       title: map['title'],
     );
+    
   }
-
   Map<String, dynamic> toMap() {
     return (
       'userId': userId,
@@ -20,4 +20,3 @@ class Album {
       'title': title,
     );
   }
-}
